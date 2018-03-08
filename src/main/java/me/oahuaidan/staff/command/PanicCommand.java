@@ -18,10 +18,11 @@ public class PanicCommand extends CommandBase {
         if (!FreezeCommand.getFrozen().contains(p.getUniqueId())) {
             Bukkit.getServer().dispatchCommand(Bukkit.getServer().getConsoleSender(), "freeze " + p.getName());
             p.sendMessage(Basic.translate("&dPanic mode has been enabled. Staff have been notified."));
-            Basic.broadcast(Basic.translate("&7[&5STAFF&7] &d" + p.getName() + " &7has entered &d&lPANIC MODE&7."), "staff.command.mod");
+            Basic.broadcast(Basic.translate("&7[&5STAFF&7] &d" + p.getName() + " &7has &aentered &d&lPANIC MODE&7."), "staff.command.mod");
         } else {
             Bukkit.getServer().dispatchCommand(Bukkit.getServer().getConsoleSender(), "freeze " + p.getName());
             p.sendMessage(Basic.translate("&dPanic mode has been disabled."));
+            Basic.broadcast(Basic.translate("&7[&5STAFF&7] &d" + p.getName() + " &7has &cleft &d&lPANIC MODE&7."), "staff.command.mod");
         }
     }
 }

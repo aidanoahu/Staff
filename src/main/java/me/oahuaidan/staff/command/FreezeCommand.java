@@ -38,6 +38,7 @@ public class FreezeCommand extends CommandBase {
             } else {
                 frozen.remove(target.getUniqueId());
                 sender.sendMessage(Basic.translate("&5" + target.getName() + " &dhas been unfrozen."));
+                target.sendMessage(Basic.translate("&dYou have been unfrozen."));
             }
         }
     }

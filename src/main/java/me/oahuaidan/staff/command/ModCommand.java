@@ -62,7 +62,7 @@ public class ModCommand extends CommandBase {
         p.getInventory().setItem(4, minerTeleport);
         p.getInventory().setItem(8, vanishOn);
 
-        p.sendMessage(Basic.translate(Staff.getInstance().getConfig().getString("messages.modmode-enable")));
+        p.sendMessage(Basic.translate("&dMod Mode: &aEnabled"));
     }
 
     private void disable(Player p) {
@@ -78,7 +78,7 @@ public class ModCommand extends CommandBase {
         armor.remove(p.getUniqueId());
         locations.remove(p.getUniqueId());
 
-        p.sendMessage(Basic.translate(Staff.getInstance().getConfig().getString("messages.modmode-disable")));
+        p.sendMessage(Basic.translate("&dMod Mode: &cDisabled"));
     }
 
     protected void execute(CommandSender sender, String[] args) {

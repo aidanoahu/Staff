@@ -16,6 +16,6 @@
     <orderEntry type="library" name="Maven: org.sql2o:sql2o:1.5.4" level="project" />
     <orderEntry type="library" name="Maven: com.warrenstrange:googleauth:1.1.2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.5.3" level="project" />
-    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.9" level="project" />
+    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.10" level="project" />
   </component>
 </module>
