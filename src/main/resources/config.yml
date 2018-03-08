@@ -1,0 +1,28 @@
+# Enter your SQL database credentials
+database:
+  ip:
+  port:
+  name:
+  username:
+  password:
+
+# Customize messages
+messages:
+
+  # %reason replaced with reason, %reporter replaced with reporting player, %offender replaced with reported player
+  report: '&7[&5STAFF&7] &5%reporter &7has reported &d%offender &7for reason: %reason'
+
+  # %msg replaced with request message, %player replaced with player requesting help
+  request: '&7[&5STAFF&7] &d%player is in need of help&7: %msg'
+
+  # %msg replaced with sent message, %staff replaced with talking staff member's name
+  staffchat: '&7[&5STAFF&7] &d%staff&7: %msg'
+
+  # %staff replaced with staff member's name
+  staff-join: '&7[&5STAFF&7] &d%staff &7has joined the server.'
+
+  # %staff replaced with staff member's name
+  staff-quit: '&7[&5STAFF&7] &d%staff &7has left the server.'
+
+# Customize the ip of the teamspeak in the freeze message
+freeze-teamspeak: ts.minecraft.net

@@ -1,0 +1,26 @@
+author: Oahu
+version: 1.0
+name: Staff
+main: me.oahuaidan.staff.Staff
+
+commands:
+  mod:
+    description: Enter staff mode
+    aliases: [staff, h, staffmode]
+  freeze:
+    description: Freeze a player
+    aliases: [ss, unfreeze, unss]
+  panic:
+    description: Freeze yourself (for media ranks)
+  sc:
+    description: Talk in staff chat
+    aliases: [staffchat, ac, adminchat, modchat, mc]
+  request:
+    description: Request help from a staff member
+    aliases: [helpop, ticket]
+  report:
+    description: Report another player
+  2fa:
+    description: Enter your 2fa code
+  2fasetup:
+    description: Request to setup your 2fa
